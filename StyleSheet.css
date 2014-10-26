@@ -7,6 +7,7 @@
     align-content:center;
     align-items:center;
     text-decoration:none;
+    text-align:center;
 
 }
 
@@ -21,8 +22,7 @@
 ul {
     padding-top:5px;
     margin:0px; 
-    text-align:center;
-    
+    text-align:center;   
 }
 
 li {
@@ -55,5 +55,7 @@ li+li {
 
 .footer {
     font-weight:bold;
-    
 }
+
+
+
