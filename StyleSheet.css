@@ -71,5 +71,31 @@ li+li {
     text-align:justify;
 }
 
+.gridview {
+    background-color: #F08080;
+    border: solid 3px #FFFFFF;
+    border-collapse:collapse;
+    font-family:Verdana;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.gridview td {
+    padding:3px;
+    border:solid 2px #FFFFFF;
+}
+
+.gridview th {
+    padding: 4px 2px;
+    color: #696969;
+    background-color:FFFF99;
+    border-left: solid 2px #FFFFFF;
+    font-family: Verdana;
+    font-size:1.3em;
+    text-align:center;
+}
+
+
+
 
 

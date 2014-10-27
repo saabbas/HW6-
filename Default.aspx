@@ -52,7 +52,7 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="recipeID" DataSourceID="sql_saabbas" HorizontalAlign="Center">
+        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="recipeID" DataSourceID="sql_saabbas" HorizontalAlign="Center" CssClass="gridview">
             <Columns>
                 <asp:BoundField DataField="recipeName" HeaderText="Recipe Name" SortExpression="recipeName" />
                 <asp:BoundField DataField="submittedBy" HeaderText="Submitted By" SortExpression="submittedBy" />
