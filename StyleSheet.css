@@ -95,7 +95,29 @@ li+li {
     text-align:center;
 }
 
+.detailview {
+    background-color:#FFFF99;
+    border:solid 3px #696969;
+    border-collapse:collapse;
+    font-family:Verdana;
+    color:#F08080;
+    text-align:center
+}
 
+.detailview td {
+    padding:3px;
+    border:solid 3px #000000; 
+}
+
+.detailview th {
+    padding:5x 3x;
+    color:#000000;
+    background-color:#F08080;
+    border-left:solid 2px #FFFFFF;
+    font-family:Verdana;
+    font-size:1.3em;
+    text-align:center;
+}
 
 
 

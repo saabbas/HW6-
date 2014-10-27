@@ -52,7 +52,7 @@
                 <asp:Parameter Name="recipeID" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="recipeID" DataSourceID="sql_saabbas" Height="50px" Width="125px" HorizontalAlign="Center">
+        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="recipeID" DataSourceID="sql_saabbas" Height="50px" Width="262px" HorizontalAlign="Center" CssClass="detailview">
             <Fields>
                 <asp:BoundField DataField="recipeName" HeaderText="Recipe Name" SortExpression="recipeName" />
                 <asp:BoundField DataField="submittedBy" HeaderText="Submitted By" SortExpression="submittedBy" />
