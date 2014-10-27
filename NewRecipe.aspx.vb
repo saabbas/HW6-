@@ -4,11 +4,11 @@ Partial Class NewRecipe
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        newrecipeFormView.Focus()
+        FormView1.Focus()
 
     End Sub
 
-    Protected Sub newrecipeFormView_ItemInserted(sender As Object, e As FormViewInsertedEventArgs) Handles newrecipeFormView.ItemInserted
+    Protected Sub FormView1_ItemInserted(sender As Object, e As FormViewInsertedEventArgs) Handles FormView1.ItemInserted
 
         Response.Redirect("./Default.aspx")
 
