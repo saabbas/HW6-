@@ -15,7 +15,7 @@
     font-size:xx-large;
     color:#000000;
     font-weight:bold;
-    font-family:Tahoma;
+    font-family:'Tahoma';
     text-align:center;
 }
 
@@ -34,7 +34,7 @@ li {
 }
 
 #nav {
-    display:inline;
+    display:inline-block;
     text-align:center;
     
 }
@@ -60,6 +60,15 @@ li+li {
 .validationError {
     color:red;
     font-weight:bold;
+}
+
+.aboutUs {
+    font-family:'Adobe Heiti Std';
+    font-size:medium;
+    color:white;
+    font-weight:700;
+    font-style:italic;
+    text-align:justify;
 }
 
 
